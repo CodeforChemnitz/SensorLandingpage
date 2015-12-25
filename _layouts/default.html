@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/github-light.css" media="screen">
+    <script src="/vendor/jquery/js/jquery-1.11.0.min.js"></script>
+    <script src="/vendor/mermaid/mermaid.min.js"></script>
+    <script src="/js/mermaid_init.js"></script>
+  </head>
+  <body>
+
+    {% include nav.html %}
+  	{% include header.html %}
+    <section class="main-content">
+  		{{content}}
+  	</section>
+
+  	{% include footer.html %}
+
+    </section>
+
+
+  </body>
+</html>
