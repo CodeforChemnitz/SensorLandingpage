@@ -3,4 +3,4 @@ markdown: redcarpet
 highlighter: pygments
 permalink: none
 url: http://codeforchemnitz.de/SensorLandingpage
-baseurl: SensorLandingpage
+baseurl: /SensorLandingpage
