@@ -10,10 +10,10 @@ sudo gem install bundler
 bundle install
 ```
 
-## Run Jeykll
+## Run Jeykll local
 
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl ''
 ```
 
 ## Bower for vendor libs
